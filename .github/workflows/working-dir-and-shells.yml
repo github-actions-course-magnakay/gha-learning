@@ -13,4 +13,5 @@ jobs:
                 echo $GITHUB_REPOSITORY
                 echo $GITHUB_WORKSPACE
                 echo $GITHUB_ACTOR
-                echo $secrets.GITHUB_TOKEN
+                echo ${{secrets.GITHUB_TOKEN}}
+                echo $GITHUB_REPOSITORY
